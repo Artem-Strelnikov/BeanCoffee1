@@ -1,21 +1,21 @@
 @font-face {
   font-family: "Inter";
-  src: url("/assets/fonts/Inter_24pt-Regular.ttf");
+  src: url("../fonts/Inter-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/Montserrat-ExtraBold.ttf");
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
   font-weight: 800;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat-Medium.ttf");
+  src: url("../fonts/Montserrat-Medium.ttf");
   font-weight: 500;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url ("/assets/fonts/Montserrat-Regular.ttf;");
+  src: url("../fonts/Montserrat-Regular.ttf");
   font-weight: 400;
 }
 * {
@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
 }
