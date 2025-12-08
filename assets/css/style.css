@@ -1,49 +1,22 @@
-@font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter-Regular.ttf");
-  font-weight: 400;
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+  justify-content: space-evenly;
 }
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-ExtraBold.ttf");
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Medium.ttf");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Regular.ttf");
-  font-weight: 400;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
+.header__list {
+  display: flex;
+  gap: 50px;
   list-style: none;
 }
-
-body {
-  color: black;
-  font-weight: 600;
-  font-family: "Inter";
+.header__link {
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s;
 }
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+.header__link:hover {
+  color: #635e6e;
+}/*# sourceMappingURL=style.css.map */
