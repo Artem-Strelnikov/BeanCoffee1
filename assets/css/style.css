@@ -25,6 +25,7 @@
 
 .intro {
   text-decoration: none;
+  padding-bottom: 121px;
 }
 .intro__wrapper {
   display: flex;
@@ -69,4 +70,21 @@
 .intro__img {
   max-width: 100%;
   height: auto;
+}
+
+.info__wrapper {
+  padding-left: 50px;
+}
+.info__title {
+  display: flex;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: #000;
+  padding-bottom: 43px;
+}
+.info__text {
+  font-weight: 400;
+  font-size: 32px;
+  color: #191919;
 }/*# sourceMappingURL=style.css.map */
