@@ -1,7 +1,58 @@
 .intro {
-    .Intro__wrapper {
+    text-decoration: none;
+    &__wrapper {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: center; /* Выравнивание по вертикали */
+        justify-content: space-between; 
+        min-height: 100vh; /* 
+    }
+
+    &__left {
+        flex: 1;
+        max-width: 50%; /* Занимает половину ширины */
+    }
+
+    &__text {
+        font-weight: 700;
+        font-size: 128px;
+        text-align: left; /* Текст слева */
+        color: #191919;
+        line-height: 1.1;
+        margin-bottom: 40px;
+        margin-left: 50px;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+        color: #fff;
+        background-color: #191919;
+        padding: 16px 27px 17px;
+        width: 320px;
+        height: 72px;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin-left: 52px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #333;
+            transform: translateY(-5px);
+        }
+    }
+
+    &__right {
+        flex: 1;
+        max-width: 50%; /* Занимает половину ширины */
+        display: flex;
+        justify-content: flex-end; /* Картинка справа */
+    }
+
+    &__img {
+        max-width: 100%;
+        height: auto;
+        max-height: 80vh; /* Ограничиваем высоту картинки */
+        object-fit: cover;
     }
 }
