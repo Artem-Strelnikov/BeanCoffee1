@@ -3,13 +3,8 @@
     &__wrapper {
         display: flex;
         align-items: center; /* Выравнивание по вертикали */
-        justify-content: space-between; 
-        min-height: 100vh; /* 
-    }
-
-    &__left {
-        flex: 1;
-        max-width: 50%; /* Занимает половину ширины */
+        justify-content: space-between;
+        min-height: 100vh;
     }
 
     &__text {
@@ -20,6 +15,7 @@
         line-height: 1.1;
         margin-bottom: 40px;
         margin-left: 50px;
+        padding-bottom: 103px;
     }
 
     &__link {
@@ -52,7 +48,7 @@
     &__img {
         max-width: 100%;
         height: auto;
-        max-height: 80vh; /* Ограничиваем высоту картинки */
-        object-fit: cover;
+        // max-height: 80vh; /* Ограничиваем высоту картинки */
+        // object-fit: cover;
     }
 }

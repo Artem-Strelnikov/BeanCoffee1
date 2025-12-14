@@ -30,12 +30,7 @@
   display: flex;
   align-items: center; /* Выравнивание по вертикали */
   justify-content: space-between;
-  min-height: 100vh; /* 
-}
-
-&__left {
-    flex: 1;
-    max-width: 50%; /* Занимает половину ширины */
+  min-height: 100vh;
 }
 .intro__text {
   font-weight: 700;
@@ -45,6 +40,7 @@
   line-height: 1.1;
   margin-bottom: 40px;
   margin-left: 50px;
+  padding-bottom: 103px;
 }
 .intro__link {
   font-weight: 400;
@@ -73,7 +69,4 @@
 .intro__img {
   max-width: 100%;
   height: auto;
-  max-height: 80vh; /* Ограничиваем высоту картинки */
-  -o-object-fit: cover;
-     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
